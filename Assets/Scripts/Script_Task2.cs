@@ -18,7 +18,6 @@ public class Script_Task2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        moveVector.Set(0, 0, 0);
         float forward = Input.GetAxis("Vertical");
         float sideways = Input.GetAxis("Horizontal");
         float currentForce = Input.GetKey(KeyCode.Space) ? boostForce : baseForce;
