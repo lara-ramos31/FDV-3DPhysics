@@ -17,12 +17,6 @@ public class Script_Task4_Sphere : MonoBehaviour
             Debug.LogError("Error: GameObject has no objective!");
         }
     }
-
-    void Update()
-    {
-        if (objective == null) { return; }
-    }
-
     void FixedUpdate()
     {
         if (rb == null) { return; }
